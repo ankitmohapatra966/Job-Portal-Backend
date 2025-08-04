@@ -21,7 +21,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
     origin:['http://localhost:5173',
-    "https://job-portal-frontend-6xsc.vercel.app"],
+    "https://job-portal-frontend-psi-eight.vercel.app","https://job-portal-frontend-ankit-mohapatras-projects.vercel.app","https://job-portal-frontend-git-main-ankit-mohapatras-projects.vercel.app"],
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials:true

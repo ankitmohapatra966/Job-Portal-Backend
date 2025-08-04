@@ -1,0 +1,47 @@
+# ============================
+# Node Modules
+# ============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ============================
+# Environment Files
+# ============================
+.env
+.env.local
+.env.*.local
+
+# ============================
+# Logs
+# ============================
+logs
+*.log
+logs/*.log
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# ============================
+# OS / Editor Files
+# ============================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# ============================
+# Build Output
+# ============================
+dist/
+build/
+coverage/
+
+# ============================
+# Optional Caches
+# ============================
+.cache/
+.temp/
